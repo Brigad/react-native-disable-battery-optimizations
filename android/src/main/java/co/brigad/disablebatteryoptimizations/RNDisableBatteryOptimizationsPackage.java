@@ -1,4 +1,4 @@
-package com.reactlibrary;
+package co.brigad.disablebatteryoptimizations;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -14,11 +14,6 @@ public class RNDisableBatteryOptimizationsPackage implements ReactPackage {
     @Override
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
       return Arrays.<NativeModule>asList(new RNDisableBatteryOptimizationsModule(reactContext));
-    }
-
-    // Deprecated from RN 0.47
-    public List<Class<? extends JavaScriptModule>> createJSModules() {
-      return Collections.emptyList();
     }
 
     @Override

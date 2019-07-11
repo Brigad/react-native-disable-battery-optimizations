@@ -1,17 +1,22 @@
 {
-  "name": "react-native-disable-battery-optimizations",
-  "version": "1.0.4",
+  "name": "@brigad/react-native-disable-battery-optimizations",
+  "version": "1.0.5",
   "description": "",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "react-native"
   ],
-  "author": "@aleixrodri98",
-  "license": "",
+  "author": "Thibault Malbranche",
+  "license": "MIT",
   "peerDependencies": {
-    "react-native": "^0.41.2"
+    "react-native": "^0.59.0"
+  },
+  "devDependencies": {
+    "react": "16.8.3",
+    "react-native": "0.59.1"
   }
 }
